@@ -1,0 +1,21 @@
+{
+  "name": "alraedah-assessment",
+  "version": "1.0.0",
+  "description": "Assessment for ",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --reporter spec --exit"
+  },
+  "author": "Gopal Joshi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0"
+  }
+}
